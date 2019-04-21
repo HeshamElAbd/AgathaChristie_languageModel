@@ -3,7 +3,7 @@
 """
 Created on Thu Apr 18 05:49:16 2019
 @author: Hesham El Abd
-@description: The scripts downloads five books from gutenberg project, 
+@description: The scripts downloads four books from gutenberg project, 
 clean them and then write a one raw text file that will be used to train an 
 RNN based language model for Agatha christie. 
 """
