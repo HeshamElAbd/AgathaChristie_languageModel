@@ -22,7 +22,7 @@ import tensorflow as tf
 ### define the user specific parameters:
 parser=argparse.ArgumentParser()
 
-parser.add_argument("--embedding_dimention", 
+parser.add_argument("--embedding_dimension", 
                     help="The embedding dimentionalility for building"+
                     "the embedding layer of the model",
                     type=int)
@@ -59,7 +59,7 @@ parser.add_argument("--epochs",
 # Parsing the user inputs
 user_inputs=parser.parse_args()
 seq_len=user_inputs.cond_str_len
-emb_dim=user_inputs.embedding_dimention
+emb_dim=user_inputs.embedding_dimension
 num_units=user_inputs.num_of_lstm_units
 recurrent_dropout=user_inputs.recurrent_dropout
 input_dropout=user_inputs.input_dropout
