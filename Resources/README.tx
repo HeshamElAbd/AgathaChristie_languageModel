@@ -1,0 +1,2 @@
+The directory contians a serialized copies of the char2indx which is a map from characters to integers used to encode text 
+for the model and idx2char which maps integer to characters back, used to decode the model outputs.  
